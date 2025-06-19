@@ -74,6 +74,6 @@ def show_page():
                 st.error(f"Error pada model {model_name}: {e}")
 
         if use_dt: run_reg_prediction("Decision Tree", "models/modelJb_DecisionTree_regresireal.joblib")
-        if use_knn: run_reg_prediction("KNN", "models/modelJb_knn_regresireal.joblib")
+        if use_knn: run_reg_prediction("KNN", "models/modelJb_ModelKNN_REGRESI.joblib")
         if use_nn: run_reg_prediction("Neural Network", "models/modelJb_nn_regresireal.joblib")
         if use_svm: run_reg_prediction("SVM", "models/modelJb_Regresibisa_SVM.joblib")

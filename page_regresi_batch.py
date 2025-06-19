@@ -61,7 +61,7 @@ def show_page():
                         st.error(f"Error pada model {model_name}: {e}")
 
                 if use_dt: run_batch_reg("DT", "models/modelJb_DecisionTree_regresireal.joblib", 'ACS_Prediction_DT')
-                if use_knn: run_batch_reg("KNN", "models/modelJb_knn_regresireal.joblib", 'ACS_Prediction_KNN')
+                if use_knn: run_batch_reg("KNN", "models/modelJb_ModelKNN_REGRESI.joblib", 'ACS_Prediction_KNN')
                 if use_nn: run_batch_reg("NN", "models/modelJb_nn_regresireal.joblib", 'ACS_Prediction_NN')
                 if use_svm: run_batch_reg("SVM", "models/modelJb_Regresibisa_SVM.joblib", 'ACS_Prediction_SVM')
                 
