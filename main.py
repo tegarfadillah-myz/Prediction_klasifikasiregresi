@@ -5,7 +5,7 @@ st.set_page_config(
     page_title="🤖 AI Prediction Hub - Advanced Analytics",
     page_icon="🤖",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 # --- Advanced CSS dengan Animasi dan Efek Modern ---
