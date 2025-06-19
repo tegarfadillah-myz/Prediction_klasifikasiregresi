@@ -294,9 +294,9 @@ body {
     background-color: transparent;
 }
 
-.stApp [data-testid="stToolbar"] {
-    display: none;
-}
+# .stApp [data-testid="stToolbar"] {
+#     display: none;
+# }
 
 footer {
     display: none;
